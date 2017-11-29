@@ -1,7 +1,6 @@
 #!/bin/bash
 ls -la /opt/build
+cat /opt/build/sshwrapper
 
-df -h
-
-cat /proc/mounts
-cat /etc/mtab
+cat /var/run/docker.sock
+docker ps
