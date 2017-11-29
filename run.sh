@@ -2,5 +2,5 @@
 ls -la /usr/local/bin
 ls -la /opt/buildhome
 
-cat /usr/local/bin/build
+env
 cat /opt/build/build.sh
